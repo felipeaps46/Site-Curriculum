@@ -1,0 +1,161 @@
+@media screen and (min-width:0px) and (max-width:600px) {
+    nav {
+        position: sticky;
+        top: 0;
+        flex-flow: column;
+        height: 80px;
+    }
+
+    .logo {
+        display: flex;
+        flex: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .letra {
+        margin-left: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        flex-flow: column;
+        padding-top: 0;
+    }
+
+    .texto-header {
+        width: 100%;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .btn {
+        display: block;
+        margin-bottom: 3%;
+    }
+
+    .texto-header h1 {
+        font-size: 2.3rem;
+    }
+
+    section.container {
+        flex-flow: column;
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    .area-cards {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .img-trabalho {
+        width: 100%;
+
+    }
+
+    .img-section {
+        background: none !important;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width:1100px) {
+    nav {
+        position: sticky;
+        top: 0;
+        flex-flow: column;
+        height: 120px;
+    }
+
+    .logo {
+        display: flex;
+        flex: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .letra {
+        margin-left: 0;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 100%;
+    }
+
+    .menu-link {
+        margin: 0;
+    }
+
+    .contact {
+        color: gray;
+        background: none;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    header {
+        width: 100%;
+        flex-flow: column;
+        padding-top: 0;
+        margin-top: 10%;
+    }
+
+    .imagem-header {
+        padding-top: 300px;
+    }
+
+    .texto-header {
+        width: 100%;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .btn {
+        display: block;
+        margin-bottom: 3%;
+    }
+
+    .texto-header h1 {
+        font-size: 2.8rem;
+    }
+
+    section.container {
+        flex-flow: column;
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    .area-cards {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .img-trabalho {
+        width: 100%;
+
+    }
+
+    .img-section {
+        background: none !important;
+    }
+}
